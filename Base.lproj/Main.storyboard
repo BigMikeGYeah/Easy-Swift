@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="35t-lz-zSy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fsk-nL-E5W">
+            <objects>
+                <navigationController id="35t-lz-zSy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m7o-50-c5S">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mJ2-Uj-DlE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SrL-nM-MaZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2607" y="911"/>
+        </scene>
+        <!--Introduction-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swift_pro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x95-rp-yhd">
+                                <rect key="frame" x="16" y="72" width="343" height="253"/>
+                                <string key="text">       Hey guys, welcome to swift pro, this is an app that help the people who interested in computer languages, especially people who never coded before. Well, from here, you can get some basic knowledge of the swift language and also test yourself to see if you get it! And please remember, feel free to refer back whenever it is needed! Alright that's pretty much it, let's get you started ! ( Oh, just a quick reminder, you need to have your XCode ready)</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u=3430705597,1864703434&amp;fm=26&amp;gp=0" translatesAutoresizingMaskIntoConstraints="NO" id="TLU-gP-Wm1">
+                                <rect key="frame" x="0.0" y="326" width="375" height="445"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TLU-gP-Wm1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7lu-Ey-oHA"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="8kx-SV-Dqm"/>
+                            <constraint firstAttribute="bottom" secondItem="TLU-gP-Wm1" secondAttribute="bottom" constant="-104" id="UCx-OX-dn9"/>
+                            <constraint firstItem="TLU-gP-Wm1" firstAttribute="top" secondItem="x95-rp-yhd" secondAttribute="bottom" constant="1" id="YQF-Gn-2hC"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aZR-g3-N2L"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="abp-e7-PbW"/>
+                            <constraint firstItem="TLU-gP-Wm1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b4f-HC-iJs"/>
+                            <constraint firstItem="TLU-gP-Wm1" firstAttribute="top" secondItem="x95-rp-yhd" secondAttribute="bottom" constant="1" id="drJ-S0-Auo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="x95-rp-yhd" secondAttribute="bottom" constant="342" id="hSz-sw-V7y"/>
+                            <constraint firstAttribute="trailing" secondItem="TLU-gP-Wm1" secondAttribute="trailing" id="hly-SJ-MFX"/>
+                            <constraint firstAttribute="trailing" secondItem="TLU-gP-Wm1" secondAttribute="trailing" id="igj-61-ucA"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="iia-xL-LZl"/>
+                            <constraint firstItem="TLU-gP-Wm1" firstAttribute="top" secondItem="x95-rp-yhd" secondAttribute="bottom" constant="1" id="j5I-Uk-aP8"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="uY9-Rb-2JE"/>
+                            <constraint firstAttribute="bottom" secondItem="TLU-gP-Wm1" secondAttribute="bottom" constant="-104" id="waz-Aa-UO8"/>
+                            <constraint firstItem="x95-rp-yhd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yp9-6h-rkz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Introduction" id="5fU-yz-gkp">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="UFY-FQ-xgD">
+                            <connections>
+                                <segue destination="vC2-CR-80x" kind="show" id="Nvg-Dz-SXE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qCC-FJ-Igc">
+                    <rect key="frame" x="0.0" y="0.0" width="343" height="177"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text">       Hey guys, welcome to swift pro, this is an app that help the people who interested in computer languages, especially people who never coded before. Well, from here, you can get some basic knowledge of the swift language and also test yourself to see if you get it! And please remember, feel free to refer back whenever it is needed!</string>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1769" y="1763"/>
+        </scene>
+        <!--Swifthub-->
+        <scene sceneID="Kbw-Gp-fac">
+            <objects>
+                <viewController id="vC2-CR-80x" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WFi-RI-fgl"/>
+                        <viewControllerLayoutGuide type="bottom" id="36L-86-hTC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tO3-T7-SEL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="屏幕快照 2017-08-03 下午2.01.54" translatesAutoresizingMaskIntoConstraints="NO" id="k2R-6W-kps">
+                                <rect key="frame" x="0.0" y="44" width="375" height="307.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u=4138394122,1708456419&amp;fm=26&amp;gp=0" translatesAutoresizingMaskIntoConstraints="NO" id="t3U-Ch-iGL">
+                                <rect key="frame" x="0.0" y="359.5" width="375" height="307.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCm-bK-0kz">
+                                <rect key="frame" x="0.0" y="44" width="375" height="307.5"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="72"/>
+                                <state key="normal" title="TEST">
+                                    <color key="titleColor" red="0.98585205034388446" green="1" blue="0.95432811853027899" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tzE-7z-cKT" kind="show" id="2hX-Gh-v1d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9c-VK-aoU">
+                                <rect key="frame" x="0.0" y="359.5" width="375" height="307.5"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="65"/>
+                                <state key="normal" title="STUDY">
+                                    <color key="titleColor" red="0.92225910307901271" green="0.96312675150189342" blue="0.96777193346604473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eVN-8q-yi0" kind="show" id="lR3-Cm-VHj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75714764286418856" green="0.53596114980832166" blue="0.29757960938655659" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="t3U-Ch-iGL" firstAttribute="top" secondItem="MCm-bK-0kz" secondAttribute="bottom" constant="8" id="89W-rg-Ae0"/>
+                            <constraint firstItem="k9c-VK-aoU" firstAttribute="height" secondItem="MCm-bK-0kz" secondAttribute="height" id="8lI-cc-hC2"/>
+                            <constraint firstItem="MCm-bK-0kz" firstAttribute="top" secondItem="tO3-T7-SEL" secondAttribute="top" constant="44" id="95o-gb-Dum"/>
+                            <constraint firstItem="MCm-bK-0kz" firstAttribute="leading" secondItem="tO3-T7-SEL" secondAttribute="leading" id="F4E-uJ-mFM"/>
+                            <constraint firstAttribute="trailing" secondItem="k9c-VK-aoU" secondAttribute="trailing" id="KfP-7g-aB0"/>
+                            <constraint firstItem="k2R-6W-kps" firstAttribute="top" secondItem="tO3-T7-SEL" secondAttribute="top" constant="44" id="LEw-JS-xWz"/>
+                            <constraint firstAttribute="trailing" secondItem="t3U-Ch-iGL" secondAttribute="trailing" id="LrZ-hv-8Xd"/>
+                            <constraint firstItem="k9c-VK-aoU" firstAttribute="leading" secondItem="tO3-T7-SEL" secondAttribute="leading" id="QId-39-hAZ"/>
+                            <constraint firstAttribute="trailing" secondItem="MCm-bK-0kz" secondAttribute="trailing" id="X8h-Qj-mbh"/>
+                            <constraint firstAttribute="trailing" secondItem="k2R-6W-kps" secondAttribute="trailing" id="ZxY-fT-fif"/>
+                            <constraint firstItem="t3U-Ch-iGL" firstAttribute="width" secondItem="k2R-6W-kps" secondAttribute="width" id="d81-Ic-luk"/>
+                            <constraint firstItem="k9c-VK-aoU" firstAttribute="width" secondItem="MCm-bK-0kz" secondAttribute="width" id="dQt-Ox-g00"/>
+                            <constraint firstItem="k9c-VK-aoU" firstAttribute="top" secondItem="MCm-bK-0kz" secondAttribute="bottom" constant="8" id="jlI-5W-7Gl"/>
+                            <constraint firstItem="36L-86-hTC" firstAttribute="top" secondItem="k9c-VK-aoU" secondAttribute="bottom" id="mmt-C0-5TL"/>
+                            <constraint firstItem="k2R-6W-kps" firstAttribute="leading" secondItem="tO3-T7-SEL" secondAttribute="leading" id="ryA-M4-iZD"/>
+                            <constraint firstItem="t3U-Ch-iGL" firstAttribute="height" secondItem="k2R-6W-kps" secondAttribute="height" id="snk-8b-TxZ"/>
+                            <constraint firstItem="36L-86-hTC" firstAttribute="top" secondItem="t3U-Ch-iGL" secondAttribute="bottom" id="vbl-ao-FGk"/>
+                            <constraint firstItem="t3U-Ch-iGL" firstAttribute="leading" secondItem="tO3-T7-SEL" secondAttribute="leading" id="ydR-Fc-rb7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Swifthub" id="IBc-4k-5S6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQF-4t-WMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8194.3999999999996" y="659.82008995502258"/>
+        </scene>
+        <!--Content-->
+        <scene sceneID="vxX-M7-eVa">
+            <objects>
+                <viewController id="eVN-8q-yi0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uhs-sq-ocC"/>
+                        <viewControllerLayoutGuide type="bottom" id="J5d-Fj-u19"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A9w-Yu-Dm3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2ade082a-481b-46ec-bc42-cebdbeaade05" translatesAutoresizingMaskIntoConstraints="NO" id="4BE-VV-xeY">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-10" translatesAutoresizingMaskIntoConstraints="NO" id="wkh-vI-pp5">
+                                <rect key="frame" x="90" y="30" width="196" height="579"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mf-CY-asu">
+                                        <rect key="frame" x="0.0" y="0.0" width="121" height="63"/>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="1. Var and let">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="46A-bo-3GA" kind="show" id="Qqb-8q-syl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJq-xe-UeW">
+                                        <rect key="frame" x="0.0" y="53" width="78" height="53"/>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="2. Types">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Con-oS-7nd" kind="show" id="2r5-Ys-PDe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qf5-ug-WBT">
+                                        <rect key="frame" x="0.0" y="96" width="88" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="dr1-nW-dik"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="3. Strings">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="hwR-Sj-3gn" kind="show" id="KZd-q0-X9F"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYl-lT-nUI">
+                                        <rect key="frame" x="0.0" y="139" width="111" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="JyC-aY-JJU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="4. Optionals">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="2jP-YC-006" kind="show" id="mkQ-Y3-b2T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYN-yn-nSx">
+                                        <rect key="frame" x="0.0" y="182" width="89" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="FJ5-XP-s5H"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="5. Arrays">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="sz4-2g-MWE" kind="show" id="p9d-Xz-ioX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apb-ck-q0k">
+                                        <rect key="frame" x="0.0" y="225" width="133" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="8td-dN-ATi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="6. Dictionaries">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="TTK-Kp-jG6" kind="show" id="JGH-zD-ugX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAA-Al-HXS">
+                                        <rect key="frame" x="0.0" y="268" width="81" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="wWR-bo-3Z3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="7. Tuples">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="zHn-LA-FYZ" kind="show" id="EeZ-7z-bnA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtb-Ku-zV7">
+                                        <rect key="frame" x="0.0" y="311" width="144" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="Uma-aS-RWS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="8. Control Flow">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="byT-nV-jHp" kind="show" id="Vjl-Y9-mx7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuG-lg-wU2">
+                                        <rect key="frame" x="0.0" y="354" width="112" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="utz-vv-6Zf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="9. Functions">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="qbm-E6-HdS" kind="show" id="LDd-D7-uaQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8a-je-5UB">
+                                        <rect key="frame" x="0.0" y="397" width="153" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="0HV-zs-pGN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="10. Enumerations">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="3hH-FK-wUB" kind="show" id="96C-9Y-LaW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-gA-iRR">
+                                        <rect key="frame" x="0.0" y="440" width="196" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="SIk-Dz-dsM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="11. Classes and Structs">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="YRb-EN-7fb" kind="show" id="7Fi-Pn-KVj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7p-Vs-oQw">
+                                        <rect key="frame" x="0.0" y="483" width="124" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="hLV-bz-Lab"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="12. Initializers">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="nqS-MP-H3f" kind="show" id="kzX-eh-yOm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jt-f3-o7P">
+                                        <rect key="frame" x="0.0" y="526" width="176" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="44E-cn-tyT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="34"/>
+                                        <state key="normal" title="13. Static Properties">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="mOi-IG-S5U" kind="show" id="m7A-ey-b16"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mYN-yn-nSx" firstAttribute="top" secondItem="qf5-ug-WBT" secondAttribute="bottom" constant="33" id="5z6-uO-czA"/>
+                                    <constraint firstItem="k7p-Vs-oQw" firstAttribute="top" secondItem="i8a-je-5UB" secondAttribute="bottom" constant="33" id="C7p-fC-0AO"/>
+                                    <constraint firstItem="FuG-lg-wU2" firstAttribute="top" secondItem="gAA-Al-HXS" secondAttribute="bottom" constant="33" id="H2U-XH-e2f"/>
+                                    <constraint firstItem="gAA-Al-HXS" firstAttribute="top" secondItem="mYN-yn-nSx" secondAttribute="bottom" constant="33" id="H8h-n8-Yvr"/>
+                                    <constraint firstItem="Gtb-Ku-zV7" firstAttribute="top" secondItem="Apb-ck-q0k" secondAttribute="bottom" constant="33" id="Pij-kV-XPF"/>
+                                    <constraint firstItem="6jt-f3-o7P" firstAttribute="top" secondItem="fV1-gA-iRR" secondAttribute="bottom" constant="33" id="QU6-Y3-tLR"/>
+                                    <constraint firstItem="Apb-ck-q0k" firstAttribute="top" secondItem="rYl-lT-nUI" secondAttribute="bottom" constant="33" id="b8J-TM-Yh3"/>
+                                    <constraint firstItem="fV1-gA-iRR" firstAttribute="top" secondItem="FuG-lg-wU2" secondAttribute="bottom" constant="33" id="da5-Zf-RiD"/>
+                                    <constraint firstItem="i8a-je-5UB" firstAttribute="top" secondItem="Gtb-Ku-zV7" secondAttribute="bottom" constant="33" id="hrL-iS-GBx"/>
+                                    <constraint firstItem="eJq-xe-UeW" firstAttribute="top" secondItem="wkh-vI-pp5" secondAttribute="top" constant="53" id="jZI-gI-Igd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wkh-vI-pp5" firstAttribute="top" secondItem="uhs-sq-ocC" secondAttribute="bottom" constant="10" id="7JH-CH-jr9"/>
+                            <constraint firstItem="J5d-Fj-u19" firstAttribute="top" secondItem="4BE-VV-xeY" secondAttribute="bottom" id="8XJ-En-to7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wkh-vI-pp5" secondAttribute="trailing" constant="73" id="JdR-zL-C57"/>
+                            <constraint firstItem="4BE-VV-xeY" firstAttribute="leading" secondItem="A9w-Yu-Dm3" secondAttribute="leading" id="NtU-B5-Lpi"/>
+                            <constraint firstItem="wkh-vI-pp5" firstAttribute="leading" secondItem="A9w-Yu-Dm3" secondAttribute="leadingMargin" constant="74" id="WdY-s8-d9g"/>
+                            <constraint firstAttribute="trailing" secondItem="4BE-VV-xeY" secondAttribute="trailing" id="l8v-Tg-Fx9"/>
+                            <constraint firstItem="4BE-VV-xeY" firstAttribute="top" secondItem="uhs-sq-ocC" secondAttribute="bottom" id="wqP-P7-vtZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Content" id="IrF-gY-JCO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NbB-wi-kPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3585" y="1763"/>
+        </scene>
+        <!--3-->
+        <scene sceneID="IX3-f3-Czp">
+            <objects>
+                <viewController id="hwR-Sj-3gn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cSQ-fk-44a"/>
+                        <viewControllerLayoutGuide type="bottom" id="cDq-LO-3BB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hRQ-xl-NB4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="timg (17)" translatesAutoresizingMaskIntoConstraints="NO" id="L7w-hD-C18">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjA-fJ-nED">
+                                <rect key="frame" x="0.0" y="32" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ga6-kb-z8n">
+                                <rect key="frame" x="22" y="83" width="331" height="564"/>
+                                <string key="text">The simplest kind of string to create is a string literal. This is a string whose value is known at compile-time, and it is written as a sequence of characters surrounded by double quotes:
+
+let introduction = “hi, my name is Mike!”
+
+Putting Strings Together and Tearing Them Apart
+	you can put + between string to put them together, for example
+
+let me = “Mike”
+let introduce = “Hi， my name is” + me + “ ！”
+
+Also, if you want to join an array of strings together, you can use the joined method of String to conjoin them with a delimiter of your choosing:
+
+let beetles = ["John", "Paul", "Ringo", "George"].joined(separator: " and ")
+
+if you are new in swift, you don’t have to know it now.
+
+String Interpolation
+	One of the most powerful features of strings in Swift is string interpolation. Interpolation allows us to incorporate the values of variables by name when constructing a string. References are made by placing the variable name inside parenthesis with a preceding backslash, like this: \(variableName). Let's revisit one of the examples above using string interpolation:
+
+let favoritecar = “bicycle”
+let myopinion = “my favorite car is \（favoritecar）”
+
+Using print for Debugging
+
+Sometimes things go wrong in our programs. Sometimes you just want to see how a value is changing as your program executes. When we aren't in the context of a playground, we don't have the benefit of the side pane showing us these intermediate values. At times like these, we need a way to print to Xcode's debug console. We can do this with Swift's print function. It takes a string and writes it to the debug area so we can see what's going on.
+
+let answer = 42
+print("The answer is \(answer)")
+
+Indexing into Strings
+
+Swift does not allow you to extract a single character from a string by indexing into it:
+
+let barnResidents = "🐮🐔🐷🐴"
+let position = 2
+let pig = barnResidents[position] // Nope! "Cannot subscript String with an Int" 😱
+
+And for always, remember that string is a value type, and this is in contrast to reference types, where all variables refer to the same instance of an object, so changing the value for one changes it for all references.</string>
+                                <color key="textColor" red="0.97278065486920395" green="1" blue="0.93535066435678571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="AjA-fJ-nED" secondAttribute="trailing" id="1DR-Ve-Kle"/>
+                            <constraint firstItem="L7w-hD-C18" firstAttribute="top" secondItem="AjA-fJ-nED" secondAttribute="bottom" constant="8" id="HUs-56-UZc"/>
+                            <constraint firstItem="Ga6-kb-z8n" firstAttribute="leading" secondItem="hRQ-xl-NB4" secondAttribute="leadingMargin" constant="6" id="Koh-mN-kPA"/>
+                            <constraint firstAttribute="trailing" secondItem="L7w-hD-C18" secondAttribute="trailing" id="Njm-my-dpI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ga6-kb-z8n" secondAttribute="trailing" constant="6" id="OXF-MP-Tvb"/>
+                            <constraint firstItem="cDq-LO-3BB" firstAttribute="top" secondItem="L7w-hD-C18" secondAttribute="bottom" id="R7v-JO-XPN"/>
+                            <constraint firstItem="L7w-hD-C18" firstAttribute="leading" secondItem="hRQ-xl-NB4" secondAttribute="leading" id="Tq2-Vv-jvZ"/>
+                            <constraint firstItem="AjA-fJ-nED" firstAttribute="leading" secondItem="hRQ-xl-NB4" secondAttribute="leading" id="Ubp-JA-XhJ"/>
+                            <constraint firstItem="AjA-fJ-nED" firstAttribute="top" secondItem="cSQ-fk-44a" secondAttribute="bottom" constant="12" id="hOs-qW-NAS"/>
+                            <constraint firstItem="Ga6-kb-z8n" firstAttribute="top" secondItem="cSQ-fk-44a" secondAttribute="bottom" constant="63" id="oLs-dy-Fue"/>
+                            <constraint firstItem="cDq-LO-3BB" firstAttribute="top" secondItem="Ga6-kb-z8n" secondAttribute="bottom" constant="20" id="pnC-oQ-PAA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="3" id="gEp-JX-4Yf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NOh-YA-Wtx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2607" y="-1049"/>
+        </scene>
+        <!--9-->
+        <scene sceneID="hIA-Y8-0CT">
+            <objects>
+                <viewController id="qbm-E6-HdS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EGD-2B-XWD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ehl-VL-E2U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DjY-ur-7aC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="屏幕快照 2017-08-03 下午12.25.14" translatesAutoresizingMaskIntoConstraints="NO" id="VYB-Fa-19q">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Functions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGx-XN-gbP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="ex9-q7-U8r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgA-Tp-Ys9">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">Programming is not powerful without functions. Functions are a block of code that perform a specific task. They exist to make code more organized, more readable, and more reusable. Let's dig in to see how it works!
+
+Declaration
+
+Here's how you declare a function with no parameters or return value.
+
+func haveFun() {
+
+If you want to add a parameter, you guessed it - it goes within the parantheses.
+
+Notice the parameter name comes first, followed by colon and type, just like normal variable declarations.
+
+func takesParam(name: String) {
+    
+}
+
+Here's how you return a value back to the caller:
+func returnsSomething(name: String) -&gt; String {
+    return name + "!"
+}
+   
+In order to take more than one parameter, you simply separate the inputs with a comma:
+
+func difference(num1: Int, num2: Int) -&gt; Int {
+    return num1 - num2
+}
+Sometimes, you want a function to return more than one value. However, in many programming languages, this is not possible and workaround strategies have been used. Well, no more! In Swift you can return multiple values back to the caller using tuples. A tuple is a data structure with a specific number of items as well as a specific sequence of those items. Let's look at a function that returns multiple items using a tuple.
+
+In this function, we send in an array of integers as input, and expect 2 values to be returned. Notice the syntax: for the returned value, we have 2 items, first and last. They have their types declared, and they are wrapped inside parentheses. Furthermore, in order to return a tuple, the function simply wraps the items it wants to return inside parantheses.
+
+func firstLast(array: [Int]) -&gt; (first: Int, last: Int) {
+    let firstItem = array[0]
+    let lastItem = array[array.count-1]
+    return (firstItem, lastItem)
+}
+
+Let's see how a caller can use this function to receive 2 values back from the function. We're going to call the firstLast function and put the returned value (the tuple) in a variable called result.
+
+var numbers = [10, 30, 13, 5, 9]
+let result = firstLast(array: numbers)
+
+There are a few ways you can retrieve values from the tuple returned from the function:
+
+
+let val1 = result.first
+Also, since the items in the tuple are in a specific sequence, they can be accessed by their index. Note that, just like arrays, the first item is at index 0 not 1.
+
+
+
+let val2 = result.0
+
+
+There is also a totally different way to get back the values. You can define your own tuple items, and they will be bound to the values returned by the function. In the line below, item1 is bound to the value of the first item returned by the function. Note that they do not need to have their types defined. Why? because Swift is smart enough to realize that the function you are calling returns 2 integers, so it figures that you wanted item1 and item2 to be integers as well. Cool, huh?
+
+let (item1, item2) = firstLast(array: numbers)
+print(item1)
+print(item2)
+
+Parameter Names
+
+All right, time to talk about an advanced topic: internal and external parameter names. Coming from other programming languages, you may not have heard such a thing, but no worries, once you understand why it is needed, you will be using it everywhere in your code.
+
+Let's first discuss the syntax. As you can see below, first you define the external name, followed by the internal name. The body of the function only sees the internal name and not the external name. Similarly, a caller will only see the external name and not the internal name.
+
+func goodFunc(externalName internalName: Int) -&gt; Int {
+    return internalName + 10
+}
+
+When you define the external name for a parameter, you force the caller to use that name when they call the function:
+let res = goodFunc(externalName: 40)
+
+When using external names,  it’s pretty much because they are much more easier for programmers to read.
+</string>
+                                <color key="textColor" red="1" green="0.97629764817720233" blue="0.96016626637857794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VYB-Fa-19q" secondAttribute="trailing" id="4Y8-VH-KOv"/>
+                            <constraint firstItem="Ehl-VL-E2U" firstAttribute="top" secondItem="VYB-Fa-19q" secondAttribute="bottom" id="4qM-aU-Bkm"/>
+                            <constraint firstItem="Ehl-VL-E2U" firstAttribute="top" secondItem="hgA-Tp-Ys9" secondAttribute="bottom" constant="23" id="7JO-bb-bhN"/>
+                            <constraint firstItem="VYB-Fa-19q" firstAttribute="leading" secondItem="DjY-ur-7aC" secondAttribute="leading" id="GZy-Fl-nbW"/>
+                            <constraint firstItem="VYB-Fa-19q" firstAttribute="top" secondItem="QGx-XN-gbP" secondAttribute="bottom" constant="8" id="JGj-r7-YHv"/>
+                            <constraint firstItem="QGx-XN-gbP" firstAttribute="leading" secondItem="DjY-ur-7aC" secondAttribute="leading" id="KIs-6i-aRd"/>
+                            <constraint firstItem="Ehl-VL-E2U" firstAttribute="top" secondItem="hgA-Tp-Ys9" secondAttribute="bottom" constant="23" id="Psf-ge-hT5"/>
+                            <constraint firstItem="QGx-XN-gbP" firstAttribute="top" secondItem="EGD-2B-XWD" secondAttribute="bottom" constant="8" symbolic="YES" id="SfK-a4-6bx"/>
+                            <constraint firstItem="hgA-Tp-Ys9" firstAttribute="leading" secondItem="DjY-ur-7aC" secondAttribute="leadingMargin" constant="6" id="VOA-o6-zSB"/>
+                            <constraint firstItem="hgA-Tp-Ys9" firstAttribute="leading" secondItem="DjY-ur-7aC" secondAttribute="leadingMargin" constant="6" id="VcW-0H-ISh"/>
+                            <constraint firstAttribute="trailing" secondItem="QGx-XN-gbP" secondAttribute="trailing" id="ecL-M0-HBA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hgA-Tp-Ys9" secondAttribute="trailing" constant="6" id="fMR-io-B3f"/>
+                            <constraint firstItem="hgA-Tp-Ys9" firstAttribute="top" secondItem="QGx-XN-gbP" secondAttribute="bottom" constant="31" id="oJB-mH-PnL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="9" id="LXO-kg-2kl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6FA-M2-xNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5594" y="2117"/>
+        </scene>
+        <!--10-->
+        <scene sceneID="sWY-Zi-fri">
+            <objects>
+                <viewController id="3hH-FK-wUB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c1J-EI-tok"/>
+                        <viewControllerLayoutGuide type="bottom" id="7hD-at-3L1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qke-Ec-V4b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="timg (25)" translatesAutoresizingMaskIntoConstraints="NO" id="cXB-v6-657">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Enumeration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66w-HI-LMD">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ6-ho-UEC">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">Sometimes, you want to make a series of categories of things in your program. The actual value of the categories themselves don't matter, just that they're seen as something distinct.
+
+Enter enum. Here's an example of an enum, representing the 4 cardinal directions.
+
+enum CardinalDirection {
+    case north, east, south, west
+}
+
+CardinalDirection.north
+CardinalDirection.east
+CardinalDirection.south
+CardinalDirection.west
+
+A small notes: As of Swift 3, enum "cases" should be camelCased just like variable names.
+
+Given this, you can make yourself a CardinalDirection like this:
+let direction: CardinalDirection = .north
+
+Notice the value .North that we gave our direction variable. This is actually a shortened form of CardinalDirection.north – because we gave Swift the type when we declared our variable, it can assume that we're looking at values in the CardinalDirection enum.
+
+enums in Swift work exceedingly well in conjunction with the switch statement. For example, say we want to update the x and y coordinates of a player traveling in one of the directions:
+
+var playerPosition: (x: Int, y: Int) = (2, 3) // a tuple!
+
+switch direction {
+case .north:
+    playerPosition.y += 1
+case .south:
+    playerPosition.y -= 1
+case .east:
+    playerPosition.x += 1
+case .west:
+    playerPosition.x -= 1
+}
+
+playerPosition
+
+Enumerations with Raw Values
+In the previous example, the underlying type of CardinalDirection didn't matter – because it was an enum, we couldn't convert it to an Int value or similar. But what if we wanted to associate different values to our enums?
+
+You can declare an enum with an implicitly assigned raw value:
+
+enum Month: Int {
+    case january = 1,
+    february,
+    march,
+    april,
+    may,
+    june,
+    july,
+    august,
+    september,
+    november,
+    december
+}
+
+You can then access the raw value of an enum by calling its .rawValue:
+
+let month = Month.april
+month.rawValue
+
+Notice that we didn't provide Swift with raw values for any of the months other than .january. That's because (for Int values specifically) Swift will automatically assign raw values with increasing numbers by 1. So, .february has a rawValue of 2, and .march has a rawValue of 3, etc.</string>
+                                <color key="textColor" red="1" green="0.9064995177329308" blue="0.54851203431958218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cXB-v6-657" secondAttribute="trailing" id="15i-jO-Ajj"/>
+                            <constraint firstItem="JJ6-ho-UEC" firstAttribute="leading" secondItem="qke-Ec-V4b" secondAttribute="leadingMargin" constant="6" id="DWS-LM-Tca"/>
+                            <constraint firstItem="7hD-at-3L1" firstAttribute="top" secondItem="JJ6-ho-UEC" secondAttribute="bottom" constant="23" id="I0w-rB-Bvq"/>
+                            <constraint firstItem="cXB-v6-657" firstAttribute="leading" secondItem="qke-Ec-V4b" secondAttribute="leading" id="KBw-g4-83c"/>
+                            <constraint firstItem="JJ6-ho-UEC" firstAttribute="top" secondItem="66w-HI-LMD" secondAttribute="bottom" constant="31" id="Qmj-i3-SFc"/>
+                            <constraint firstItem="cXB-v6-657" firstAttribute="top" secondItem="66w-HI-LMD" secondAttribute="bottom" constant="8" id="UHK-xF-ycK"/>
+                            <constraint firstItem="66w-HI-LMD" firstAttribute="top" secondItem="c1J-EI-tok" secondAttribute="bottom" constant="8" symbolic="YES" id="UTz-eN-fEV"/>
+                            <constraint firstItem="66w-HI-LMD" firstAttribute="leading" secondItem="qke-Ec-V4b" secondAttribute="leading" id="UjN-8J-1v7"/>
+                            <constraint firstItem="7hD-at-3L1" firstAttribute="top" secondItem="cXB-v6-657" secondAttribute="bottom" id="VdZ-c3-b70"/>
+                            <constraint firstItem="66w-HI-LMD" firstAttribute="centerX" secondItem="JJ6-ho-UEC" secondAttribute="centerX" id="g0O-Fa-99M"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JJ6-ho-UEC" secondAttribute="trailing" constant="6" id="mwH-BU-vH0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="10" id="drI-en-aZS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuR-HV-lkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769" y="660"/>
+        </scene>
+        <!--11-->
+        <scene sceneID="qYr-Ld-zbQ">
+            <objects>
+                <viewController id="YRb-EN-7fb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t3I-AP-WQu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oat-hb-pzy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I9w-he-pF4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="屏幕快照 2017-08-03 下午12.42.32" translatesAutoresizingMaskIntoConstraints="NO" id="Oog-ul-ugM">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classes and Structures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfA-5T-Sax">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Cdb-ri-UrQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0Q-UW-a6D">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">Classes (and structures) will be the building blocks of your app. They're one of the fundamental aspects of object-oriented programming, which is the paradigm you'll be using and is one of the most common programming paradigms in use today. One of the most defining aspects of classes and structures is that they have data associated with them, called properties and ways to manipulate that data, called methods.
+
+Classes
+
+Classes are generally used for code that you might want to use multiple times. For example, let's say you need a way to keep track of vehicles in your app. You'd create a class named Vehicle with the following properties:
+
+The number of wheels that the vehicle has, with 4 as the default value.
+The vehicle's color, with "black" as the default value.
+
+class Vehicle  {
+    var wheels = 4
+    var color = "black"
+}
+
+note: unlike variable names, class names should start with an uppercase letter
+Defining our Vehicle class allows us to specify the capabilities of every vehicle we have in our app. To create a new vehicle, let's create an instance of our Vehicle class.
+
+let myCar = Vehicle()
+
+There are a few things worth mentioning about the previous code:
+
+1. Since each Car will always have one body style that will never be changed, bodyStyle is created as a constant using let.
+2. Using init, we create an initializer that takes in a String called bodyStyle.
+3. There's something weird going on here. We have two different variables with the name bodyStyle inside the init method's scope. We have the parameter that was passed in at #2, but we also have the property from #1. To make sure the compiler doesn't get confused about which we're referring to, we use they keyword self. self refers to this current instance of Car, so self.bodyStyle refers to the bodyStyle property of this Car. It's very common to use the same variable name from the property being initialized for paramaters in initializers.
+
+let taxi = Car(bodyStyle: "sedan")
+
+taxi.bodyStyle
+taxi.color
+taxi.wheels
+
+Notice how even though we didn't define color and wheels within Car, they were inherited from Vehicle.
+
+Since we definitely don't want our taxi's color to be black, let's define a new class called Taxi that has color as yellow by default and "sedan" as the default body style. Additionally, let's add the following to our Taxi class:
+
+A fare property.
+A method called getInfo that describes our Taxi
+
+class Taxi: Car {
+    var fare : Int
+    
+    init(fare : Int) {
+        self.fare = fare
+        super.init(bodyStyle: "sedan")
+        self.color = "yellow"
+    }
+    
+    func getInfo() -&gt; String {
+        return "I have \(wheels) wheels and I charge $\(fare) per mile."
+    }
+}
+1. Notice how we are calling super.init(). super refers to the superclass, which in this case is Car. Using super.init(), we are able to access the initializer that we created for Car.
+2. Since fare is not an optional, we have to set it in init before we call super.init. We will go more in details into optionals as properties in a tutorial made specifically to explain properties.
+
+Structures
+We can use structures to group related data. Tuples can do this too, but unlike tuples, structures can also have methods. For example, let's define a struct (short for structure) that can hold the size of a car.
+struct Size {
+    var length: Int
+    var width: Int
+    var height: Int
+    
+    init(length: Int, width: Int, height: Int) {
+        self.length = length
+        self.width = width
+        self.height = height
+    }
+    
+    func computeVolume() -&gt; Int {
+        return length * width * height
+    }
+}
+
+let smallCarSize = Size(length: 40, width: 20, height: 30)
+print(smallCarSize.computeVolume())
+
+let bigCarSize = Size(length: 100, width: 30, height: 50)
+print(bigCarSize.computeVolume())
+So far, it looks like we could have accomplished the same thing using a class instead of a struct. And in fact, we could have! Try replacing the keyword struct with class and see what happens. In Swift, classes and structs are very similar, but there are some important differences. For one, structs have no inheritance - they cannot be a subclass or superclass of another class or struct. We don't expect Size to ever have any subclasses - it stands on its own, so we made it a struct instead of a class.
+Classes vs. Structs
+
+There are major differences between classes and structs. We already talked about how structs don't have inheritance. Another very important distinction is the following:
+
+Classes are passed as a reference.
+Structs are passed by value.
+
+When you are working with the actual representation of any UI elements, you will always use a class. Why? Labels (UILabel), image views (UIImageView), table view cells (UITableViewCell), and sprites for games (SKSpriteNode) will all be classes since your custom versions will inherit from the ones provided by Apple. Only classes support inheritance!
+
+The properties of these UI elements are often represented by structs! Things like color (UIColor), position (CGPoint), and size (CGSize) are all structs. Anything type from core graphics library (starts with CG) will be a struct and you'll use these types often to describe the properties of UI elements.
+
+Beyond that, the choice is somewhat up to you. Since iOS development is pretty Object-Oriented Programming heavy, we will tend to use classes for a lot of "living data". We will use structs in place of tuples for any sets of very basic data that we need to represent often.
+
+Apple's documentation (linked below) defines these guidelines for when you might want to use a struct:
+
+As a general guideline, consider creating a structure when one or more of these conditions apply:
+
+1. The structure’s primary purpose is to encapsulate a few relatively simple data values.
+2. It is reasonable to expect that the encapsulated values will be copied rather than referenced when you assign or pass around an instance of that structure.
+3. Any properties stored by the structure are themselves value types, which would also be expected to be copied rather than referenced.
+4. The structure does not need to inherit properties or behavior from another existing type.
+
+In all other cases, define a class, and create instances of that class to be managed and passed by reference. In practice, this means that most custom data constructs should be classes, not structures.</string>
+                                <color key="textColor" red="0.99942404029999998" green="0.98790699140422045" blue="0.17236800447233591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oat-hb-pzy" firstAttribute="top" secondItem="Oog-ul-ugM" secondAttribute="bottom" id="26H-jw-ozi"/>
+                            <constraint firstItem="Oog-ul-ugM" firstAttribute="leading" secondItem="I9w-he-pF4" secondAttribute="leading" id="2SH-Jn-75g"/>
+                            <constraint firstItem="Oat-hb-pzy" firstAttribute="top" secondItem="w0Q-UW-a6D" secondAttribute="bottom" constant="23" id="3Ez-g5-G28"/>
+                            <constraint firstItem="qfA-5T-Sax" firstAttribute="leading" secondItem="I9w-he-pF4" secondAttribute="leading" id="5gw-vx-WzW"/>
+                            <constraint firstItem="w0Q-UW-a6D" firstAttribute="top" secondItem="qfA-5T-Sax" secondAttribute="bottom" constant="31" id="L1E-5R-MQg"/>
+                            <constraint firstItem="qfA-5T-Sax" firstAttribute="top" secondItem="t3I-AP-WQu" secondAttribute="bottom" constant="8" id="Qtj-wX-nq1"/>
+                            <constraint firstAttribute="trailing" secondItem="Oog-ul-ugM" secondAttribute="trailing" id="dbU-oq-hGQ"/>
+                            <constraint firstAttribute="trailing" secondItem="qfA-5T-Sax" secondAttribute="trailing" id="ee2-04-Ke5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w0Q-UW-a6D" secondAttribute="trailing" constant="6" id="hWF-ts-y1u"/>
+                            <constraint firstItem="w0Q-UW-a6D" firstAttribute="leading" secondItem="I9w-he-pF4" secondAttribute="leadingMargin" constant="6" id="kUv-aW-gfj"/>
+                            <constraint firstItem="Oog-ul-ugM" firstAttribute="top" secondItem="qfA-5T-Sax" secondAttribute="bottom" constant="8" id="wJU-RR-n7k"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="11" id="soq-bG-iCb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fsr-mb-wWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769" y="-1048"/>
+        </scene>
+        <!--12-->
+        <scene sceneID="gId-aS-Jap">
+            <objects>
+                <viewController id="nqS-MP-H3f" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wfy-e3-qqL"/>
+                        <viewControllerLayoutGuide type="bottom" id="RZe-yq-VwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Eb-UL-tc8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="timg (16)" translatesAutoresizingMaskIntoConstraints="NO" id="lkl-Ez-bud">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Initializers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxO-Ju-IsM">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hV2-xz-cQg">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">In Swift, there can be many ways to initialize a class. In this tutorial, we will cover designated, convenience, required, and failable initializers. When you're just starting out, you probably won't have a need to use many of these, but as your classes become larger and more complex, using a specialized initializer can help cut down the amount of code you have to write overall.
+
+Designated Initializers
+
+Let's start with designated initializers. Designated initializers are the primary initializer for class. In fact, every class must have at least one designated initializer. At the end of the designated initializer, all (non-optional) properties must have been initialized. These should look pretty familiar, as you've seen them before:
+
+class Human {
+    // weight in pounds
+    var pounds : Double
+    
+    init(pounds : Double) {
+        self.pounds = pounds
+    }
+    
+    // weight in kilo grams
+    init(kgs : Double) {
+        self.pounds = kgs * 2.2046
+    }
+}
+
+let mike = Human(pounds: 150)
+let john = Human(kgs: 60)
+
+mike.pounds
+john.pounds
+By creating the second designated initializer, we are able to make it easier for a person who is more familiar with kilograms to use the class. In most situations, you will probably only have one designated initializer. But this serves to demonstrate that it's possible to have many.
+
+In subclass, the initializer will inherit from its parent class, and as long as you create a new variable in sub class, initializer should appear before the variable was used
+
+Optionals and Initializers
+Let's see how optional properties interact with initializers. In this case, otherTalent is an optional property.
+class CoolHuman: Human {
+    var talent : String
+    var otherTalent : String?
+    
+    init(talent : String, otherTalent : String, pounds : Double) {
+        // non-optionals must be set before calling super.init
+        self.talent = talent
+        
+        super.init(pounds: pounds)
+        
+        // optionals can be set after calling super.init
+        self.otherTalent = otherTalent
+    }
+}
+
+let cool = CoolHuman(talent: "just cool", otherTalent: "more talent", pounds: 0)
+We still had to assign talent before calling super.init since it's a non-optional. However, since otherTalent is an optional, we were able to assign it after calling super.init.
+
+Convenience Initializers
+Often times, particularly if your class has many properties, the users of your class won't want to provide values for every single one of the class's properties when they create a new instance. Often, they'll want to provide values for just a few properties, and are okay with the rest of the properties having default values. You can provide this functionality by creating convenience initializers.
+
+enum MilkFat {
+    case skim, onePercent, twoPercent, whole
+}
+
+enum MilkFlavor {
+    case regular, chocolate, strawberry
+}
+
+class Milk {
+    let flavor: MilkFlavor
+    let fat: MilkFat
+    
+    // designated initializer
+    init(flavor: MilkFlavor, fat: MilkFat) {
+        self.flavor = flavor
+        self.fat = fat
+    }
+    
+    // convenience initializer
+    convenience init(flavor: MilkFlavor) {
+        self.init(flavor: flavor, fat: .twoPercent)
+    }
+    
+    // convenience initializer
+    convenience init(fat: MilkFat) {
+        self.init(flavor: .regular, fat: fat)
+    }
+    
+    // convenience initializer
+    convenience init() {
+        self.init(flavor: .regular)
+    }
+}
+Because of the provided convenience initializers, someone using the Milk class can construct an instance of milk without providing any parameters. And the sequence of the initialization is like this:
+
+convenience init() -&gt; convenience init(flavor) -&gt; designated init(flavor, milkfat)
+
+Required Initializers
+Add the word required before an initializer if you want every subclass to implement it.
+class Fox {
+    var age : Int
+    
+    required init(age : Int) {
+        self.age = age
+    }
+}
+
+class AmazingFox: Fox {
+    // We would get an error if we didn't add this required initializer
+    required init(age: Int) {
+        super.init(age: age)
+    }
+}
+Every subclass of Fox must implement required init(age : Int)
+Failable Initializers
+Failable initializers are special in that they can actually fail to create a new instance. You can use these to set requirements for the parameters passed into an initializer. If the parameters don't meet the requirements, then it will fail to create a new instance. You can tell if a initializer is failable by the question mark ? after init.
+class Cow {
+    var age: Int?
+    
+    init?(age: Int) {
+        if age &lt; 0 {
+            return nil
+        }
+        
+        self.age = age
+    }
+}
+
+let niceCow = Cow(age: 20)
+let oddCow = Cow(age: -5)
+
+Notice how oddCow is nil because the passed in age is less than zero.
+
+Note that a Failable initializer returns an optional value; therefore, both niceCow and oddCow are optional values. You can check this by holding down the "option" key on your keyboard and clicking on niceCow or oddCow above.
+
+Struct Initialization
+All the initializers covered here apply to both classes and structs. Huzzah! So never worry about them!
+
+</string>
+                                <color key="textColor" red="0.36604161272455549" green="0.95955949496296533" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KxO-Ju-IsM" firstAttribute="top" secondItem="wfy-e3-qqL" secondAttribute="bottom" constant="8" id="1ma-Gs-IVn"/>
+                            <constraint firstAttribute="trailing" secondItem="lkl-Ez-bud" secondAttribute="trailing" id="88R-zz-gq5"/>
+                            <constraint firstItem="KxO-Ju-IsM" firstAttribute="top" secondItem="wfy-e3-qqL" secondAttribute="bottom" constant="8" symbolic="YES" id="9tv-ZZ-KyT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hV2-xz-cQg" secondAttribute="trailing" constant="6" id="AWD-sC-kx6"/>
+                            <constraint firstItem="KxO-Ju-IsM" firstAttribute="leading" secondItem="8Eb-UL-tc8" secondAttribute="leading" id="MPR-LO-l89"/>
+                            <constraint firstItem="lkl-Ez-bud" firstAttribute="top" secondItem="KxO-Ju-IsM" secondAttribute="bottom" constant="8" id="Orq-2u-cv4"/>
+                            <constraint firstItem="hV2-xz-cQg" firstAttribute="leading" secondItem="8Eb-UL-tc8" secondAttribute="leadingMargin" constant="6" id="PZP-iE-ukN"/>
+                            <constraint firstItem="RZe-yq-VwB" firstAttribute="top" secondItem="lkl-Ez-bud" secondAttribute="bottom" id="aEl-gs-RhJ"/>
+                            <constraint firstAttribute="trailing" secondItem="KxO-Ju-IsM" secondAttribute="trailing" id="fXH-Iu-m1k"/>
+                            <constraint firstItem="RZe-yq-VwB" firstAttribute="top" secondItem="hV2-xz-cQg" secondAttribute="bottom" constant="23" id="gd2-OI-QwG"/>
+                            <constraint firstItem="hV2-xz-cQg" firstAttribute="top" secondItem="KxO-Ju-IsM" secondAttribute="bottom" constant="31" id="qsb-0a-zJC"/>
+                            <constraint firstItem="lkl-Ez-bud" firstAttribute="leading" secondItem="8Eb-UL-tc8" secondAttribute="leading" id="t2I-Dg-8gk"/>
+                            <constraint firstItem="KxO-Ju-IsM" firstAttribute="leading" secondItem="8Eb-UL-tc8" secondAttribute="leading" id="xZa-Zm-Wo0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="12" id="Tzf-CY-eGN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umh-yE-gI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3428" y="-1049.3253373313344"/>
+        </scene>
+        <!--13-->
+        <scene sceneID="ypI-Xu-fRb">
+            <objects>
+                <viewController id="mOi-IG-S5U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FeC-Ws-zeN"/>
+                        <viewControllerLayoutGuide type="bottom" id="MAl-gF-Bmd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Kb-hQ-HhT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="timg (27)" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hjv-Bq-cqo">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Static Properties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vct-dV-Bb4">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3p9-bM-DrO">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">Sometimes you will want one of your class's properties to have a shared value between all instances of that class.
+
+class Student {
+    var numStudents = 0
+    let name: String
+    
+    init(name: String) {
+        self.name = name
+        self.numStudents += 1
+    }
+}
+Here, we want numStudents to increment by 1 each time a new Student is initialized. But, you'll notice that because there's a numStudents variable initialized for each student, the numStudents is 1 for all instances:
+
+let john = Student(name: "John")
+john.numStudents = 1
+let jessica = Student(name: "Jessica")
+jessica.numStudents = 1 
+
+This is where static properties come in. Inside of a class, you can mark a variable as static, like this:
+class Student {
+    static var numStudents = 0
+ }
+When you declare something as static, it no longer becomes tied to each class instance; rather, there is only one variable tied to all instances of the class. So, self.numStudents doesn't really make sense, since numStudents is tied to the Student class as a whole, not to individual students. So, there will be an error!
+BUT, we can change the self.numStudents += 1 to: Student.numStudents += 1
+Do the same thing to the statements john.numStudents and jessica.numStudents. Notice as each student is initialized, the numStudents value increases by 1!
+
+Key Point: You can also use the keywork class instead of static. The only difference is when you label a variable or function as class (instead of static), it can be overwritten in the subclass. static methods and variables cannot be overwritten.
+</string>
+                                <color key="textColor" red="0.49487594675895652" green="1" blue="0.87900316024634573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vct-dV-Bb4" firstAttribute="top" secondItem="FeC-Ws-zeN" secondAttribute="bottom" constant="8" symbolic="YES" id="5HH-A6-Qzp"/>
+                            <constraint firstItem="3p9-bM-DrO" firstAttribute="leading" secondItem="2Kb-hQ-HhT" secondAttribute="leadingMargin" constant="6" id="IBe-ea-xLC"/>
+                            <constraint firstItem="vct-dV-Bb4" firstAttribute="centerX" secondItem="3p9-bM-DrO" secondAttribute="centerX" id="JZ6-es-EbY"/>
+                            <constraint firstItem="hjv-Bq-cqo" firstAttribute="top" secondItem="vct-dV-Bb4" secondAttribute="bottom" constant="8" id="UOw-32-9l2"/>
+                            <constraint firstItem="vct-dV-Bb4" firstAttribute="leading" secondItem="2Kb-hQ-HhT" secondAttribute="leading" id="YvD-Xv-vvW"/>
+                            <constraint firstItem="MAl-gF-Bmd" firstAttribute="top" secondItem="hjv-Bq-cqo" secondAttribute="bottom" id="ePc-8G-JNi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3p9-bM-DrO" secondAttribute="trailing" constant="6" id="hp8-LD-xkm"/>
+                            <constraint firstItem="MAl-gF-Bmd" firstAttribute="top" secondItem="3p9-bM-DrO" secondAttribute="bottom" constant="23" id="mKQ-Bo-gdO"/>
+                            <constraint firstItem="hjv-Bq-cqo" firstAttribute="leading" secondItem="2Kb-hQ-HhT" secondAttribute="leading" id="rZ8-OJ-pN0"/>
+                            <constraint firstItem="3p9-bM-DrO" firstAttribute="top" secondItem="vct-dV-Bb4" secondAttribute="bottom" constant="31" id="uRv-kp-MjO"/>
+                            <constraint firstAttribute="trailing" secondItem="hjv-Bq-cqo" secondAttribute="trailing" id="y0t-pm-Hp2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="13" id="0ru-i0-pch"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFe-0s-hsn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2607.1999999999998" y="5318.5907046476768"/>
+        </scene>
+        <!--5-->
+        <scene sceneID="zNQ-42-Dv3">
+            <objects>
+                <viewController id="sz4-2g-MWE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OwW-6e-Gsf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bvo-4X-Erb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cum-hg-8iM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arrays" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edd-Zu-rrN">
+                                <rect key="frame" x="0.0" y="32" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="屏幕快照 2017-08-03 上午10.53.33" translatesAutoresizingMaskIntoConstraints="NO" id="g9m-tA-Pcw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJT-g5-B4O">
+                                <rect key="frame" x="22" y="77" width="331" height="561"/>
+                                <string key="text">Time to dive into arrays! An array is an ordered list of items.
+so how to make an array, i hope this code will make sense 
+
+let groceryList: [String] = ["eggs", "onions"]
+
+As you learned before in the section on type inference, Swift is smart enough to realize that your variable is an array and it's of type [String].
+so you can say…
+
+let groceryListWithInferredType = ["eggs", "onions"]
+
+To initialize an empty array using initializer syntax:
+
+let emptyArray = [String]()
+
+This works too:
+
+let anotherEmptyArray: [String] = []
+
+Inspect the Array
+
+In many cases, it is important to find out the number of items in your array. You can find the number of items easily by looking at the array's count property.
+
+let numberOfItems = groceryList.count
+print("the grocery list contains \(numberOfItems) items.")
+
+Add stuff to Arrays
+
+you can add something into arrays use this code
+
+groceryList.append("bread" )
+
+you noticed that we used .append to add objects into arrays, but here we find an error : "Cannot use mutating member on immutable value: 'groceryList' is a 'let' constant."
+
+so we can change our array to 
+
+var mutableGroceryList = ["eggs", "onions"]
+
+so you can use
+
+	mutableGroceryList.append("yogurt")
+
+if you want  your item is add in the middle of he array, you can use
+
+	mutableGroceryList.insert("chips", at: 2)
+
+you can also use this code to add 2 objects in your Array
+
+mutableGroceryList += ["cheese", "ice cream"]
+
+Of course, you have the ability to remove an item. This will return the removed item.
+
+let removedItem = mutableGroceryList.remove(at: 0)
+</string>
+                                <color key="textColor" red="0.92960061463103705" green="0.9420234918929975" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="IJT-g5-B4O" secondAttribute="trailing" constant="6" id="3ss-Ul-yUF"/>
+                            <constraint firstItem="IJT-g5-B4O" firstAttribute="top" secondItem="OwW-6e-Gsf" secondAttribute="bottom" constant="57" id="6cv-CY-nb4"/>
+                            <constraint firstItem="Bvo-4X-Erb" firstAttribute="top" secondItem="IJT-g5-B4O" secondAttribute="bottom" constant="29" id="FgR-yA-yit"/>
+                            <constraint firstAttribute="trailing" secondItem="g9m-tA-Pcw" secondAttribute="trailing" id="Gep-QQ-tJk"/>
+                            <constraint firstItem="edd-Zu-rrN" firstAttribute="top" secondItem="OwW-6e-Gsf" secondAttribute="bottom" constant="12" id="Omw-Th-4w1"/>
+                            <constraint firstAttribute="trailing" secondItem="edd-Zu-rrN" secondAttribute="trailing" id="QiF-XK-qsZ"/>
+                            <constraint firstItem="IJT-g5-B4O" firstAttribute="leading" secondItem="Cum-hg-8iM" secondAttribute="leadingMargin" constant="6" id="bWY-Ll-uv7"/>
+                            <constraint firstItem="Bvo-4X-Erb" firstAttribute="top" secondItem="g9m-tA-Pcw" secondAttribute="bottom" id="c0U-cm-2Vq"/>
+                            <constraint firstItem="g9m-tA-Pcw" firstAttribute="top" secondItem="edd-Zu-rrN" secondAttribute="bottom" constant="8" id="cnU-oa-9Z3"/>
+                            <constraint firstItem="edd-Zu-rrN" firstAttribute="leading" secondItem="Cum-hg-8iM" secondAttribute="leading" id="gfM-B1-Ga4"/>
+                            <constraint firstItem="g9m-tA-Pcw" firstAttribute="leading" secondItem="Cum-hg-8iM" secondAttribute="leading" id="nFQ-aR-RCL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="5" id="YzB-tu-8ft"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f48-7M-x7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="3239"/>
+        </scene>
+        <!--1-->
+        <scene sceneID="fFc-LB-4xB">
+            <objects>
+                <viewController id="46A-bo-3GA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ECL-Pw-88j"/>
+                        <viewControllerLayoutGuide type="bottom" id="pdG-GZ-0hl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sMy-FP-Fjx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Var and Let" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJp-CL-fgQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="屏幕快照 2017-08-03 上午9.52.10" translatesAutoresizingMaskIntoConstraints="NO" id="eVY-aD-wnb">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WQ-9x-7ja">
+                                <rect key="frame" x="22" y="79" width="331" height="561"/>
+                                <string key="text">Variables associate a name to a value. In Swift, variables are declared with the var keyword.
+var height = 6
+and now we can change the value to 10
+height = 10
+and now height is equal to 10
+
+
+Constants are immutable, and can not be changed. You can declare a constant using the keyword let:
+let pi = 3.14
+if you try to change the value of pi, for example , you type in
+pi = 2
+and that will get  you an error:
+Cannot assign to value: 'pi' is a 'let' constant
+
+If you've declared a variable using let, you will not be able to change its value later on. To get rid of the error, comment the line again by adding // to the beginning of that line. You can do it quickly with the keyboard shortcut: ⌘ + / .
+
+When naming variables and constants, Swift programmers use a convention called camelCase. Here's how you can follow it:                                                            
+	Correct:
+var yourHeight = 5
+let upcomingAppVersion = 1.1
+ 	Wrong:
+var YourHeight = 6
+let Upcomingappversion = 1.1</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Var and Let" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtH-HJ-juk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QtH-HJ-juk" firstAttribute="trailing" secondItem="TJp-CL-fgQ" secondAttribute="trailing" id="8nS-Tj-CWT"/>
+                            <constraint firstAttribute="trailing" secondItem="eVY-aD-wnb" secondAttribute="trailing" id="HZc-6J-qsk"/>
+                            <constraint firstItem="QtH-HJ-juk" firstAttribute="leading" secondItem="TJp-CL-fgQ" secondAttribute="leading" id="J27-39-KtA"/>
+                            <constraint firstItem="pdG-GZ-0hl" firstAttribute="top" secondItem="eVY-aD-wnb" secondAttribute="bottom" id="KHO-hc-L46"/>
+                            <constraint firstItem="9WQ-9x-7ja" firstAttribute="top" secondItem="QtH-HJ-juk" secondAttribute="bottom" constant="27" id="Ow6-GC-eW5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9WQ-9x-7ja" secondAttribute="trailing" constant="6" id="UWn-tB-jt6"/>
+                            <constraint firstItem="pdG-GZ-0hl" firstAttribute="top" secondItem="9WQ-9x-7ja" secondAttribute="bottom" constant="27" id="b7i-Kq-t1G"/>
+                            <constraint firstItem="QtH-HJ-juk" firstAttribute="leading" secondItem="sMy-FP-Fjx" secondAttribute="leading" id="hYO-Fa-XFQ"/>
+                            <constraint firstItem="eVY-aD-wnb" firstAttribute="leading" secondItem="sMy-FP-Fjx" secondAttribute="leading" id="hbq-PF-Vz1"/>
+                            <constraint firstItem="TJp-CL-fgQ" firstAttribute="top" secondItem="sMy-FP-Fjx" secondAttribute="top" constant="20" symbolic="YES" id="m3A-DB-QF9"/>
+                            <constraint firstItem="QtH-HJ-juk" firstAttribute="top" secondItem="ECL-Pw-88j" secondAttribute="bottom" constant="8" symbolic="YES" id="sR4-uB-jes"/>
+                            <constraint firstItem="eVY-aD-wnb" firstAttribute="top" secondItem="QtH-HJ-juk" secondAttribute="bottom" constant="8" id="xus-RE-zP2"/>
+                            <constraint firstItem="9WQ-9x-7ja" firstAttribute="leading" secondItem="sMy-FP-Fjx" secondAttribute="leadingMargin" constant="6" id="z04-hY-LNW"/>
+                            <constraint firstItem="QtH-HJ-juk" firstAttribute="centerX" secondItem="9WQ-9x-7ja" secondAttribute="centerX" id="zwK-an-RHZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="1" id="1oT-XL-imm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zep-ne-c7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3545" y="660"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="TWx-8Q-xfW">
+            <objects>
+                <viewController id="Con-oS-7nd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8HA-lZ-FRX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qec-el-qJt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mt8-8H-trM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="屏幕快照 2017-08-03 上午10.20.51" translatesAutoresizingMaskIntoConstraints="NO" id="Cep-qx-WNk">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKM-Sw-BTN">
+                                <rect key="frame" x="22" y="74" width="331" height="566"/>
+                                <string key="text">Did you notice that in the last lesson on variables, we never actually declared the type of any of our variables? That's because Swift has a language feature called type inference. That means that the compiler will try to automatically figure out the type of each variable on its own. However, it's often better to be explicit by declaring the type of a variable in the code. That way, both the compiler and other programmers reading the code can be sure of your intention. To excplicit declare the type of a value (like a String or Int) in a variable, do the following:
+
+var population: Int = 20
+
+From now on, population will always be an integer (shortened as Int). An integer is a whole number - a number without decimal points. Let's see what happens when we try to set population to a decimal number.
+Type in 
+population = 15.173746
+The error says: Cannot assign value of type 'Double' to type 'Int'. 
+
+Int - A whole number.
+Float - A decimal number.
+Double - A double precision decimal number.
+Bool - A boolean value. Can be true or false.
+Character - A single unicode character.
+String - A collection of Characters. Used to make words or sent
+Type Inference
+
+In Swift, specifying the type of your value is optional. Swift can automatically infer, or guess, the type of value you're assigning to your variable. It's a pretty smart language.
+
+var humans = 10
+
+we didn’t write human: Int, but when you try to change human to a double value, it will get you an error. make sense?
+
+Type Casting
+
+Sometimes, you'll have an Int that you want to convert to a Double. Or maybe you'll have a Double that you want to convert to an Int, to get rid of its fractional component. This process is called type casting. Here's how you can do it:
+
+let three = Int(pi)
+
+Note that Swift will NOT automatically cast types for you! This is a nice feature, because it prevents you from accidentally casting a type when you didn't mean to.  A consequence of this is that Swift expects numerical operations to only be done on numbers with the same type. For example, you can multiply two Ints or you can multiply two Floats, but you cannot multiply an Int and a Float.</string>
+                                <color key="textColor" red="0.0059172925377393576" green="0.087067426350464092" blue="0.44969463832487311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIQ-Hc-ewd">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5Va-GK-guY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cep-qx-WNk" firstAttribute="leading" secondItem="Mt8-8H-trM" secondAttribute="leading" id="3I4-AC-jWn"/>
+                            <constraint firstItem="Cep-qx-WNk" firstAttribute="top" secondItem="JIQ-Hc-ewd" secondAttribute="bottom" constant="8" id="3IB-on-s6T"/>
+                            <constraint firstAttribute="trailing" secondItem="JIQ-Hc-ewd" secondAttribute="trailing" id="3wj-lg-Tnm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iKM-Sw-BTN" secondAttribute="trailing" constant="6" id="4CJ-AX-q2h"/>
+                            <constraint firstItem="JIQ-Hc-ewd" firstAttribute="top" secondItem="8HA-lZ-FRX" secondAttribute="bottom" constant="8" id="5CT-7D-GlS"/>
+                            <constraint firstAttribute="trailing" secondItem="JIQ-Hc-ewd" secondAttribute="trailing" id="9pV-IK-s4j"/>
+                            <constraint firstItem="Qec-el-qJt" firstAttribute="top" secondItem="Cep-qx-WNk" secondAttribute="bottom" id="Qex-iu-9wf"/>
+                            <constraint firstItem="JIQ-Hc-ewd" firstAttribute="leading" secondItem="Mt8-8H-trM" secondAttribute="leading" id="SzO-lo-Xsh"/>
+                            <constraint firstItem="JIQ-Hc-ewd" firstAttribute="top" secondItem="8HA-lZ-FRX" secondAttribute="bottom" constant="8" id="VzC-i6-n8j"/>
+                            <constraint firstAttribute="trailing" secondItem="Cep-qx-WNk" secondAttribute="trailing" id="aUP-Yi-qLe"/>
+                            <constraint firstItem="JIQ-Hc-ewd" firstAttribute="leading" secondItem="Mt8-8H-trM" secondAttribute="leading" id="o7d-q2-a9t"/>
+                            <constraint firstItem="Qec-el-qJt" firstAttribute="top" secondItem="iKM-Sw-BTN" secondAttribute="bottom" constant="27" id="q93-Xg-1CS"/>
+                            <constraint firstItem="iKM-Sw-BTN" firstAttribute="leading" secondItem="Mt8-8H-trM" secondAttribute="leadingMargin" constant="6" id="rmw-hJ-5yM"/>
+                            <constraint firstItem="iKM-Sw-BTN" firstAttribute="top" secondItem="8HA-lZ-FRX" secondAttribute="bottom" constant="54" id="soo-bH-v3c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="2" id="PiF-gg-R7W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHr-OL-XB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1674" y="-1049"/>
+        </scene>
+        <!--8-->
+        <scene sceneID="a6H-hX-CQz">
+            <objects>
+                <viewController id="byT-nV-jHp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8J-5K-quN"/>
+                        <viewControllerLayoutGuide type="bottom" id="qL5-fw-dJr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WCj-WQ-UUn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="屏幕快照 2017-08-03 上午11.51.35" translatesAutoresizingMaskIntoConstraints="NO" id="sRl-zP-1FB">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Control Flow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EH8-vm-tw8">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="79D-ja-OOo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEV-li-eae">
+                                <rect key="frame" x="22" y="83" width="331" height="561"/>
+                                <string key="text">In this section, we'll cover how to use the following statements in Swift: if, for, while, and switch.
+
+if statements
+
+A simple if statement in Swift looks like the following:
+
+let isHuman = true
+
+if isHuman {
+    print("I'm a human")
+} else {
+    print("I'm a robot")
+}
+
+Note that there's no parentheses around the condition - they're optional in Swift.
+
+for-in Loops
+
+The for-in loop performs a set of statements for each item in a sequence.
+
+let cities = ["New York", "Paris", "London", "Shanghai"]
+
+for city in cities {
+    print("I live in \(city)")
+}
+
+The for-in loop is similar to a Python for loop or the Java enhanced for loop.
+
+We can also use a for-in with a range of numbers:
+
+for index in 1...3 {
+    print("I can count to \(index)")
+}
+
+The ... is called the closed range operator. It generates a range that is inclusive of both the first and last number. There's also a half-open range operator, which looks like this: a..&lt;b. That will generate a range that includes a, but excludes b.
+
+for i in 1..&lt;5 {
+    print(i)
+}
+
+If you want access to both the index number and the element value of a certain array, there's a way to do that too! Simply enumerate over cities.enumerated(), which gives you a tuple containing the index and element.
+
+for (index, element) in cities.enumerated() {
+    print("at \(index): \(element)");
+}
+
+while Loops
+
+A while loop keeps running as long as its condition is true.
+var result = 1
+
+while result &lt; 60 {
+    result *= 5
+}
+
+print(result)
+
+switch statement
+A switch statement allows you to define what happens for specific values of a variable. Here, we decide what to do based on what grade is. We could do the same thing with lots of if statements, but the switch syntax is more compact and easier to read.
+
+let grade = "A"
+
+switch grade {
+case "A":
+    print("Excellent grade")
+case "B":
+    print("Good grade")
+case "C":
+    print("Passing grade")
+default:
+    print("Unknown grade")
+}
+ And there are Two important things you should keep in mind when using switch in Swift:
+
+First, you don't need to add a break statement after every condition. (Yay!)
+Second, the default case is like an else case that would run if none of the previous conditions are met. Every switch statement must have a default case (this is not the case with enums, but we'll get there soon).
+</string>
+                                <color key="textColor" red="1" green="1" blue="0.90144536793979368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qL5-fw-dJr" firstAttribute="top" secondItem="EEV-li-eae" secondAttribute="bottom" constant="23" id="1JO-ms-Qwq"/>
+                            <constraint firstAttribute="trailing" secondItem="sRl-zP-1FB" secondAttribute="trailing" id="Gsl-6y-Dna"/>
+                            <constraint firstItem="sRl-zP-1FB" firstAttribute="top" secondItem="EH8-vm-tw8" secondAttribute="bottom" constant="8" id="Kew-5Z-Jfj"/>
+                            <constraint firstItem="qL5-fw-dJr" firstAttribute="top" secondItem="sRl-zP-1FB" secondAttribute="bottom" id="Lcc-PZ-ica"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EEV-li-eae" secondAttribute="trailing" constant="6" id="NPK-VG-Q2R"/>
+                            <constraint firstItem="EEV-li-eae" firstAttribute="leading" secondItem="WCj-WQ-UUn" secondAttribute="leadingMargin" constant="6" id="PXD-fn-vKo"/>
+                            <constraint firstItem="sRl-zP-1FB" firstAttribute="leading" secondItem="WCj-WQ-UUn" secondAttribute="leading" id="Ty2-dA-WgB"/>
+                            <constraint firstItem="EH8-vm-tw8" firstAttribute="top" secondItem="Y8J-5K-quN" secondAttribute="bottom" constant="8" id="Z9b-Lj-z2j"/>
+                            <constraint firstAttribute="trailing" secondItem="EH8-vm-tw8" secondAttribute="trailing" id="kZn-z2-2GE"/>
+                            <constraint firstItem="EH8-vm-tw8" firstAttribute="leading" secondItem="WCj-WQ-UUn" secondAttribute="leading" id="obk-QH-mcm"/>
+                            <constraint firstItem="EEV-li-eae" firstAttribute="top" secondItem="EH8-vm-tw8" secondAttribute="bottom" constant="31" id="ywk-mh-hmG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="8" id="vlw-Gi-7sW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRa-MA-4jo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4473" y="3239"/>
+        </scene>
+        <!--7-->
+        <scene sceneID="RA3-9a-ljM">
+            <objects>
+                <viewController id="zHn-LA-FYZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="65e-Uc-r7Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="T6p-Z9-9wN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5gd-kv-H9h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="u=1680923041,1692315240&amp;fm=26&amp;gp=0" translatesAutoresizingMaskIntoConstraints="NO" id="bq8-ib-rJM">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tuples" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-Ng-3ai">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ko4-sV-wOl">
+                                <rect key="frame" x="28" y="83" width="331" height="561"/>
+                                <string key="text">In Swift, when you group together a comma-separated list of expressions in parentheses, you automatically create a tuple containing it. For example, say we're tracking coordinates for a game of Battleship:
+
+let target = (2, 3)
+Yeahyeahyeah the enemies has been slain
+
+Also, there are other examples
+
+let anotherTarget: (Int, Int) = (1, 1)
+let applePrice: (String, Double) = ("Apple", 1.00)
+let coordinate: (x: Int, y: Int) = (2, 3)
+
+That last one is an example of a named tuple. Normally, you retrieve elements of tuples by appending .0, .1, etc. to their variable, like this:
+let itemName = applePrice.0
+let itemPrice = applePrice.1
+
+This doesn't make too obvious as to what .0 and .1 represents, though – so Swift allows you to name your tuple members by including it in the declaration, as seen above. Now, you can retrieve your x and y coordinates:
+
+let xCoord = coordinate.x
+let yCoord = coordinate.y
+
+This syntax of named tuples is similar to the syntax of functions that you'll encounter later, so keep an eye out!</string>
+                                <color key="textColor" red="0.0059172925377393576" green="0.010054622531019655" blue="0.44969463832487311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bq8-ib-rJM" firstAttribute="leading" secondItem="5gd-kv-H9h" secondAttribute="leading" id="4vm-GL-hQS"/>
+                            <constraint firstItem="Vnh-Ng-3ai" firstAttribute="leading" secondItem="5gd-kv-H9h" secondAttribute="leading" id="HDU-AK-CU1"/>
+                            <constraint firstItem="Ko4-sV-wOl" firstAttribute="top" secondItem="Vnh-Ng-3ai" secondAttribute="bottom" constant="31" id="PT4-U1-zYD"/>
+                            <constraint firstItem="Ko4-sV-wOl" firstAttribute="leading" secondItem="5gd-kv-H9h" secondAttribute="leadingMargin" constant="12" id="YsN-a3-4cW"/>
+                            <constraint firstItem="Vnh-Ng-3ai" firstAttribute="top" secondItem="65e-Uc-r7Z" secondAttribute="bottom" constant="8" symbolic="YES" id="Z5t-LS-rUB"/>
+                            <constraint firstAttribute="trailing" secondItem="Vnh-Ng-3ai" secondAttribute="trailing" id="d06-BE-lWP"/>
+                            <constraint firstAttribute="trailing" secondItem="bq8-ib-rJM" secondAttribute="trailing" id="nam-aC-amp"/>
+                            <constraint firstItem="Ko4-sV-wOl" firstAttribute="trailing" secondItem="5gd-kv-H9h" secondAttribute="trailingMargin" id="pal-Bw-igg"/>
+                            <constraint firstItem="T6p-Z9-9wN" firstAttribute="top" secondItem="bq8-ib-rJM" secondAttribute="bottom" id="qYN-Sq-jEB"/>
+                            <constraint firstItem="bq8-ib-rJM" firstAttribute="top" secondItem="Vnh-Ng-3ai" secondAttribute="bottom" constant="8" id="ydr-Zs-M1w"/>
+                            <constraint firstItem="T6p-Z9-9wN" firstAttribute="top" secondItem="Ko4-sV-wOl" secondAttribute="bottom" constant="23" id="zYK-4S-mxS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="7" id="9P1-9j-o32"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fpg-q2-K76" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3428" y="4334"/>
+        </scene>
+        <!--Yoyoyo-->
+        <scene sceneID="TTx-u3-Xrk">
+            <objects>
+                <viewController id="tzE-7z-cKT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OLW-1P-zKg"/>
+                        <viewControllerLayoutGuide type="bottom" id="BWh-cq-Mev"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vps-kO-AH9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRu-YR-Bab">
+                                <rect key="frame" x="16" y="50" width="343" height="110"/>
+                                <string key="text">    Hey bud, I have been waiting for you for a long time! Now, this is your challenge, are you ready for this? Well, let's do it!</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItD-D1-qqh">
+                                <rect key="frame" x="71" y="543" width="233" height="54"/>
+                                <color key="backgroundColor" red="0.00076923088310000001" green="0.73444782980000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="233" id="bvP-gf-DeL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="35"/>
+                                <size key="titleShadowOffset" width="0.0" height="2"/>
+                                <state key="normal" title="Start your test!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Ac-j6-9A2" kind="show" id="8uy-WD-t6d"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a197c80f-45ab-482e-bcef-63512c1c5d9d" translatesAutoresizingMaskIntoConstraints="NO" id="rt5-bi-rr1">
+                                <rect key="frame" x="0.0" y="230" width="375" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="Aeh-uo-FQv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ItD-D1-qqh" secondAttribute="trailing" constant="55" id="3ac-UY-E5G"/>
+                            <constraint firstItem="rt5-bi-rr1" firstAttribute="leading" secondItem="vps-kO-AH9" secondAttribute="leading" id="4jt-jA-ZZL"/>
+                            <constraint firstItem="ItD-D1-qqh" firstAttribute="leading" secondItem="vps-kO-AH9" secondAttribute="leadingMargin" constant="55" id="8c3-kI-dFh"/>
+                            <constraint firstItem="BWh-cq-Mev" firstAttribute="top" secondItem="ItD-D1-qqh" secondAttribute="bottom" constant="70" id="Ah2-Fw-Oew"/>
+                            <constraint firstItem="rt5-bi-rr1" firstAttribute="top" secondItem="jRu-YR-Bab" secondAttribute="bottom" constant="70" id="GR9-iD-DVC"/>
+                            <constraint firstItem="jRu-YR-Bab" firstAttribute="trailing" secondItem="vps-kO-AH9" secondAttribute="trailingMargin" id="Mdg-c1-yd5"/>
+                            <constraint firstAttribute="trailing" secondItem="rt5-bi-rr1" secondAttribute="trailing" id="N6V-mi-O4v"/>
+                            <constraint firstItem="jRu-YR-Bab" firstAttribute="leading" secondItem="vps-kO-AH9" secondAttribute="leadingMargin" id="R95-VI-cZN"/>
+                            <constraint firstItem="jRu-YR-Bab" firstAttribute="top" secondItem="OLW-1P-zKg" secondAttribute="bottom" constant="30" id="qae-sZ-5CR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yoyoyo" id="JLx-oB-fDz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSn-zL-TFN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5594" y="660"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="bgz-zo-fOs">
+            <objects>
+                <viewController id="7Ac-j6-9A2" customClass="ViewControllerQuestion" customModule="swift_pro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SoI-bg-vfV"/>
+                        <viewControllerLayoutGuide type="bottom" id="9RM-gw-GOx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mmh-ef-uwU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isz-RG-LRl">
+                                <rect key="frame" x="24" y="580" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.73283094167709351" blue="0.99925714731216431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="N9d-xe-2vx"/>
+                                </constraints>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newQuestionButtonPressed:" destination="7Ac-j6-9A2" eventType="touchUpInside" id="JJD-bd-5di"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pv8-Aa-Ldt">
+                                <rect key="frame" x="217" y="580" width="126" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.73283094169999996" blue="0.99925714730000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Finish">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newQuestionButtonPressed:" destination="7Ac-j6-9A2" eventType="touchUpInside" id="upM-sa-Cnp"/>
+                                    <segue destination="vC2-CR-80x" kind="show" id="CiA-rX-1N2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="196" translatesAutoresizingMaskIntoConstraints="NO" id="8SV-3S-wr7">
+                                <rect key="frame" x="16" y="306" width="112" height="58"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your test will show up here :)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lh4-PG-R7b">
+                                <rect key="frame" x="17" y="139" width="341" height="163"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I37-cW-HwL">
+                                <rect key="frame" x="17" y="381" width="341" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="lae-Qx-tme"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTS-Oe-Z8l">
+                                <rect key="frame" x="16" y="49" width="140" height="58"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyP-qb-VUa">
+                                <rect key="frame" x="1" y="381" width="373" height="185"/>
+                                <color key="backgroundColor" red="0.3309515952" green="0.67234190989999998" blue="0.99908632040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="8u5-Th-F5b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Click Here To See The Answer">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="answerButton:" destination="7Ac-j6-9A2" eventType="touchUpInside" id="rPq-tf-S5s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MTS-Oe-Z8l" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" id="0xf-J9-Cdm"/>
+                            <constraint firstAttribute="trailing" secondItem="kyP-qb-VUa" secondAttribute="trailing" constant="1" id="1EZ-Mm-eW8"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" constant="8" id="3S4-vE-fch"/>
+                            <constraint firstItem="I37-cW-HwL" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" constant="1" id="3en-Bc-pFM"/>
+                            <constraint firstItem="Pv8-Aa-Ldt" firstAttribute="leading" secondItem="isz-RG-LRl" secondAttribute="trailing" constant="69" id="4zs-SY-Ng7"/>
+                            <constraint firstItem="MTS-Oe-Z8l" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" id="5JQ-tj-0Ez"/>
+                            <constraint firstItem="kyP-qb-VUa" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leading" constant="1" id="8lF-hk-0zT"/>
+                            <constraint firstItem="MTS-Oe-Z8l" firstAttribute="top" secondItem="SoI-bg-vfV" secondAttribute="bottom" constant="29" id="BXO-c0-kZk"/>
+                            <constraint firstItem="Pv8-Aa-Ldt" firstAttribute="leading" secondItem="isz-RG-LRl" secondAttribute="trailing" constant="69" id="Co2-bN-lSN"/>
+                            <constraint firstItem="8SV-3S-wr7" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" id="Cws-Ei-8wQ"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="top" secondItem="I37-cW-HwL" secondAttribute="bottom" constant="14" id="Hbv-SW-cyk"/>
+                            <constraint firstItem="9RM-gw-GOx" firstAttribute="top" secondItem="Pv8-Aa-Ldt" secondAttribute="bottom" constant="57" id="KNi-2G-89Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I37-cW-HwL" secondAttribute="trailing" constant="1" id="M55-hI-mVq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lh4-PG-R7b" secondAttribute="trailing" constant="1" id="SGg-Sf-FBz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MTS-Oe-Z8l" secondAttribute="trailing" constant="203" id="YyV-OR-Hdq"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="baseline" secondItem="Pv8-Aa-Ldt" secondAttribute="firstBaseline" id="bXN-BB-hch"/>
+                            <constraint firstItem="MTS-Oe-Z8l" firstAttribute="top" secondItem="SoI-bg-vfV" secondAttribute="bottom" constant="29" id="cKz-N1-fwI"/>
+                            <constraint firstItem="9RM-gw-GOx" firstAttribute="top" secondItem="Pv8-Aa-Ldt" secondAttribute="bottom" constant="57" id="e3M-Ub-Za6"/>
+                            <constraint firstItem="Pv8-Aa-Ldt" firstAttribute="leading" secondItem="isz-RG-LRl" secondAttribute="trailing" constant="69" id="eV8-Ba-Hx8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pv8-Aa-Ldt" secondAttribute="trailing" constant="16" id="fr1-Do-CEx"/>
+                            <constraint firstItem="lh4-PG-R7b" firstAttribute="top" secondItem="MTS-Oe-Z8l" secondAttribute="bottom" constant="32" id="gAf-r6-aOu"/>
+                            <constraint firstItem="8SV-3S-wr7" firstAttribute="top" secondItem="lh4-PG-R7b" secondAttribute="bottom" constant="4" id="hsd-C5-72m"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="top" secondItem="Pv8-Aa-Ldt" secondAttribute="top" id="iAY-PD-Qn8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pv8-Aa-Ldt" secondAttribute="trailing" constant="16" id="jXd-Fs-vgX"/>
+                            <constraint firstItem="9RM-gw-GOx" firstAttribute="top" secondItem="Pv8-Aa-Ldt" secondAttribute="bottom" constant="57" id="kqg-cJ-jFL"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="firstBaseline" secondItem="Pv8-Aa-Ldt" secondAttribute="baseline" id="lop-ul-mXe"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="centerX" secondItem="MTS-Oe-Z8l" secondAttribute="centerX" id="sYr-Ad-A8W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pv8-Aa-Ldt" secondAttribute="trailing" constant="16" id="sze-fH-Dtn"/>
+                            <constraint firstItem="lh4-PG-R7b" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" constant="1" id="tyo-OP-jqX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MTS-Oe-Z8l" secondAttribute="trailing" constant="203" id="upH-e7-hTH"/>
+                            <constraint firstItem="9RM-gw-GOx" firstAttribute="top" secondItem="isz-RG-LRl" secondAttribute="bottom" constant="57" id="uzd-kW-Dkn"/>
+                            <constraint firstItem="I37-cW-HwL" firstAttribute="top" secondItem="8SV-3S-wr7" secondAttribute="bottom" constant="17" id="vY6-TM-uiV"/>
+                            <constraint firstItem="isz-RG-LRl" firstAttribute="leading" secondItem="Mmh-ef-uwU" secondAttribute="leadingMargin" constant="8" id="yKn-s8-tXo"/>
+                            <constraint firstItem="Pv8-Aa-Ldt" firstAttribute="top" secondItem="kyP-qb-VUa" secondAttribute="bottom" constant="14" id="yhS-gd-FQp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Test" id="1GD-Vp-Wfq"/>
+                    <connections>
+                        <outlet property="QuestionView" destination="lh4-PG-R7b" id="xca-gD-iQT"/>
+                        <outlet property="answerButton" destination="kyP-qb-VUa" id="OxZ-4t-Oi7"/>
+                        <outlet property="answerView" destination="I37-cW-HwL" id="3Hz-BT-2h0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3c-wB-9gO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5594.3999999999996" y="-1048.4257871064469"/>
+        </scene>
+        <!--4-->
+        <scene sceneID="cIr-wP-mXZ">
+            <objects>
+                <viewController id="2jP-YC-006" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G3P-Sh-VsQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="4LS-bc-gMK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o0n-gn-DcP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" ambiguous="YES" image="屏幕快照 2017-08-03 上午10.45.13" translatesAutoresizingMaskIntoConstraints="NO" id="fff-sp-xNb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Optionals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPP-p9-tde">
+                                <rect key="frame" x="0.0" y="32" width="375" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOO-Ar-VSM">
+                                <rect key="frame" x="22" y="85" width="331" height="561"/>
+                                <string key="text">Introduction to Optional
+Sometimes, it's useful to express the fact that a variable may contain a value or no value at all. Swift allows us to do this with optionals. Optionals contain either a value or nil (meaning "no value"). Optionals are like boxes that may have something inside, or they may have nothing inside.
+
+And this is very helpful in avoiding bugs where we think we have a value when in fact we don't. Functions can return an optional to indicate when the operation has failed or they have no value to give back to you.
+
+Here, we have expressly given the variable a value of 15, but we could just as easily have assigned it nil:
+
+var maybeAnInt: Int? = 15
+
+Now maybeAnInt is nil, which is to say it has no value. If maybeAnInt had just been of type Int, we could not have set it to nil.
+
+maybeAnInt = nil
+
+Unwrapping an Optional
+When we retrieve the value from an optional, we say we "unwrap" it. This is like opening the box and seeing whether there's anything inside. We can test whether an optional has a value by comparing the whole thing to nil. If it is not equal to nil, it contains a value. Woo hoo! We can then safely use force unwrapping to get its value
+
+Force Unwrapping
+Force unwrapping is done by putting an exclamation point (!) after the name of the variable we want to unwrap.This assures Swift that the optional contains a value and that it is therefore safe to read. If we're wrong, the code will crash. 
+
+ex.
+if maybeAnInt != nil {
+    print("maybeAnInt contains a value, and it is \(maybeAnInt!)")
+} else {
+    print("maybeAnInt does not contain a value")
+</string>
+                                <color key="textColor" red="0.90127019082650073" green="0.99952458110553088" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VOO-Ar-VSM" firstAttribute="leading" secondItem="o0n-gn-DcP" secondAttribute="leadingMargin" constant="6" id="386-Jo-DuN"/>
+                            <constraint firstItem="4LS-bc-gMK" firstAttribute="top" secondItem="VOO-Ar-VSM" secondAttribute="bottom" constant="21" id="4Y2-yP-C69"/>
+                            <constraint firstItem="fff-sp-xNb" firstAttribute="leading" secondItem="o0n-gn-DcP" secondAttribute="leading" id="591-K4-fcY"/>
+                            <constraint firstItem="KPP-p9-tde" firstAttribute="top" secondItem="G3P-Sh-VsQ" secondAttribute="bottom" constant="12" id="BHU-Np-Bwo"/>
+                            <constraint firstItem="4LS-bc-gMK" firstAttribute="top" secondItem="fff-sp-xNb" secondAttribute="bottom" id="F6o-id-1ic"/>
+                            <constraint firstItem="4LS-bc-gMK" firstAttribute="top" secondItem="VOO-Ar-VSM" secondAttribute="bottom" constant="21" id="TFh-sT-qDe"/>
+                            <constraint firstItem="fff-sp-xNb" firstAttribute="top" secondItem="KPP-p9-tde" secondAttribute="bottom" constant="8" id="WY5-kp-hU7"/>
+                            <constraint firstItem="VOO-Ar-VSM" firstAttribute="top" secondItem="KPP-p9-tde" secondAttribute="bottom" constant="29" id="XRx-So-cK7"/>
+                            <constraint firstItem="KPP-p9-tde" firstAttribute="leading" secondItem="o0n-gn-DcP" secondAttribute="leading" id="fjr-2L-j7O"/>
+                            <constraint firstAttribute="trailing" secondItem="fff-sp-xNb" secondAttribute="trailing" id="lka-AN-A53"/>
+                            <constraint firstAttribute="trailing" secondItem="KPP-p9-tde" secondAttribute="trailing" id="nrz-Yo-AuE"/>
+                            <constraint firstItem="VOO-Ar-VSM" firstAttribute="leading" secondItem="o0n-gn-DcP" secondAttribute="leadingMargin" constant="6" id="oyk-qY-MQz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VOO-Ar-VSM" secondAttribute="trailing" constant="6" id="vKL-Km-LK6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="4" id="eYy-CF-sC9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yn-uu-oAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="2116"/>
+        </scene>
+        <!--6-->
+        <scene sceneID="lSx-bx-j2F">
+            <objects>
+                <viewController id="TTK-Kp-jG6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JJx-Ws-sP2"/>
+                        <viewControllerLayoutGuide type="bottom" id="s1n-8u-2nP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qQR-cG-JIr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" image="屏幕快照 2017-08-03 上午11.45.35" translatesAutoresizingMaskIntoConstraints="NO" id="RRE-HS-xOE">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dictionaries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zN0-zF-eYR">
+                                <rect key="frame" x="0.0" y="28" width="375" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="sOf-iU-WOf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf4-jG-6gX">
+                                <rect key="frame" x="22" y="85" width="331" height="561"/>
+                                <string key="text">Dictionary is a collection type that can store multiple values, and each value has a unique key associated with it. (If you know Python, you may be familiar with Python dictionaries; in Java these are called HashMaps.) Unlike arrays, dictionaries are unordered, which means they do not keep the values in any particular order. Dictionaries are helpful in situations where you want to quickly look up a value based on its unique key.
+A dictionary is like this:
+
+	var cities: [String: String] = ["New York City": "USA", "Paris": "France", "London": "UK"]
+
+As you can see, the type of a dictionary depends on both the type of its key and the type of its value. The syntax to declare a dictionary type is [&lt;key type&gt;: &lt;value type&gt;]. In the example above, the key and the value are both String. In this case, the key is the name of a city, and the value is the country that the city is in. Just like arrays, the type of the dictionary can be inferred, so the [String : String] part is not strictly necessary.
+
+Examine the DictionarymutableGroceryList += ["cheese", "ice cream"]
+
+Of course, you have the ability to remove an item. This will return the removed item.
+
+let removedItem = mutableGroceryList.remove(at: 0)</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RRE-HS-xOE" firstAttribute="leading" secondItem="qQR-cG-JIr" secondAttribute="leading" id="4cr-gt-yZ2"/>
+                            <constraint firstItem="xf4-jG-6gX" firstAttribute="top" secondItem="JJx-Ws-sP2" secondAttribute="bottom" constant="65" id="9Pz-pP-gK0"/>
+                            <constraint firstItem="zN0-zF-eYR" firstAttribute="leading" secondItem="qQR-cG-JIr" secondAttribute="leading" id="NlS-d0-yIA"/>
+                            <constraint firstAttribute="trailing" secondItem="zN0-zF-eYR" secondAttribute="trailing" id="V2c-g1-wxl"/>
+                            <constraint firstItem="s1n-8u-2nP" firstAttribute="top" secondItem="RRE-HS-xOE" secondAttribute="bottom" id="aEv-xy-wBn"/>
+                            <constraint firstItem="RRE-HS-xOE" firstAttribute="top" secondItem="zN0-zF-eYR" secondAttribute="bottom" constant="8" id="ab6-pv-drJ"/>
+                            <constraint firstItem="s1n-8u-2nP" firstAttribute="top" secondItem="xf4-jG-6gX" secondAttribute="bottom" constant="21" id="fmN-G1-4Cl"/>
+                            <constraint firstItem="zN0-zF-eYR" firstAttribute="top" secondItem="JJx-Ws-sP2" secondAttribute="bottom" constant="8" id="kab-ur-XEZ"/>
+                            <constraint firstItem="xf4-jG-6gX" firstAttribute="leading" secondItem="qQR-cG-JIr" secondAttribute="leadingMargin" constant="6" id="rs1-ii-OtY"/>
+                            <constraint firstAttribute="trailing" secondItem="RRE-HS-xOE" secondAttribute="trailing" id="svE-r0-DPn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xf4-jG-6gX" secondAttribute="trailing" constant="6" id="tiX-Kc-O5A"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="6" id="QR8-Xi-qZ1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ve1-h5-fAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1540" y="4334"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2ade082a-481b-46ec-bc42-cebdbeaade05" width="735" height="1102"/>
+        <image name="a197c80f-45ab-482e-bcef-63512c1c5d9d" width="704" height="591"/>
+        <image name="timg (16)" width="608" height="1136"/>
+        <image name="timg (17)" width="288" height="480"/>
+        <image name="timg (25)" width="600" height="900"/>
+        <image name="timg (27)" width="600" height="900"/>
+        <image name="u=1680923041,1692315240&amp;fm=26&amp;gp=0" width="500" height="750"/>
+        <image name="u=3430705597,1864703434&amp;fm=26&amp;gp=0" width="500" height="805"/>
+        <image name="u=4138394122,1708456419&amp;fm=26&amp;gp=0" width="435" height="300"/>
+        <image name="屏幕快照 2017-08-03 上午10.20.51" width="341" height="637"/>
+        <image name="屏幕快照 2017-08-03 上午10.45.13" width="511" height="854"/>
+        <image name="屏幕快照 2017-08-03 上午10.53.33" width="310" height="521"/>
+        <image name="屏幕快照 2017-08-03 上午11.45.35" width="332" height="592"/>
+        <image name="屏幕快照 2017-08-03 上午11.51.35" width="401" height="599"/>
+        <image name="屏幕快照 2017-08-03 上午9.52.10" width="286" height="531"/>
+        <image name="屏幕快照 2017-08-03 下午12.25.14" width="425" height="639"/>
+        <image name="屏幕快照 2017-08-03 下午12.42.32" width="334" height="625"/>
+        <image name="屏幕快照 2017-08-03 下午2.01.54" width="444" height="288"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="CiA-rX-1N2"/>
+    </inferredMetricsTieBreakers>
+</document>
